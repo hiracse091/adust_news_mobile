@@ -1,0 +1,56 @@
+
+.next-but-swipe{
+	padding-right:20px;
+	position:relative;
+	z-index:90;
+	float:right;
+	margin-top:-120px;
+	opacity:0.5;
+}
+
+.prev-but-swipe{
+	padding-left:20px;
+	position:relative;
+	z-index:90;
+	float:left;
+	margin-top:-120px;
+	opacity:0.5;
+}
+
+@media screen and (min-width: 400px){
+	.next-but-swipe{margin-top:-155px!important;}
+	.prev-but-swipe{margin-top:-155px!important;}
+}
+
+.swipe-img{
+	max-width:100%!important;
+	display:block!important;
+}
+
+.swipe-text{
+	position:relative;
+	color:#FFF!important;
+	font-size:12px;
+	font-weight:normal;
+	background-color:rgba(0,0,0,0.4);
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:-28px;	
+	z-index:2!important;
+}
+
+.swipe {
+  padding-bottom:20px;
+}
+.swipe li div, .swipe div div div {
+  margin:0 10px;
+	padding:3px;
+	-webkit-box-shadow: 0px 1px 1px 1px rgba(202, 202, 202, 0.8);
+	-moz-box-shadow: 0px 1px 1px 1px rgba(202, 202, 202, 0.8);
+	box-shadow: 0px 1px 1px 1px rgba(202, 202, 202, 0.8);
+  background:#FFF;
+  font-weight:bold;
+  color:#fff;
+  font-size:20px;
+  text-align:center;
+}
